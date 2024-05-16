@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Helvetica, Sans-Serif;
+}
+
+h6 {
+    color: #5863E3;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+h1 {
+    color: black;
+    font-weight: 400;
+    font-size: 49px;
+}
+
+#head {
+    margin: 57px 18vw;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    border: 3px;
+    border-style: solid;
+    border-color: #00000033;
+    height: 298px;
+    width: 39vw;
+    resize: none;
+    padding: 20px;
+    vertical-align: top;
+    background-color: #F8F8F8;
+    ;
+}
+
+input {
+    border: 2px;
+    border-style: solid;
+    border-color: #00000033;
+    width: 19vw;
+    height: 55px;
+    background: #F8F8F8;
+    padding-left: 20px;
+}
+button {
+    background-color: #5968F4;
+    width: 21vw;
+    height: 59px;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FBFBFF;
+}
+
+::placeholder {
+    color: #99999A;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+form {
+    width: 100%;
+}
+
+#big {
+    display: flex;
+    width: 65vw;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#small1 {
+    display: inline-block;
+}
+
+#small2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 344px;
+    width: 20vw;
+    flex-wrap: wrap;
+}
+
+#info {
+    display: flex;
+    justify-content: space-around;
+    width: 64vw;
+    margin-left: 18vw;
+    margin-top: 51px;
+}
+
+.icon {
+    height: 68px;
+    width: 68px;
+    border-radius: 50px;
+    background-color: #5968F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nice {
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    color: #4E4D54;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.textinfo {
+    font-weight: 700;
+    font-size: 15px;
+    color: #99999A;
+}
+
+#photos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo {
+    height: 25vw;
+}
+
+#footer {
+    height: 250px;
+    background-color: black;
+    margin-top: 40px;
+    padding: 63px 6vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hotels {
+    width: 20vw;
+    height: 200px;
+}
+
+#hotel {
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+}
+
+#hotels>span {
+    color: #99999A;
+    font-weight: 700;
+    font-size: 17px;
+    display: inline-block;
+    margin: 25px 0;
+}
+
+.fa.fa-envelope {
+    color: #344186;
+}
+
+.fa.fa-phone {
+    color: #344186;
+}
+
+.useful {
+    color: #FFFFFF;
+    position: absolute;
+    left: 37vw;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.purple1 {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #5863E3;
+    position: absolute;
+    left: 650px;
+    top: 195vh;
+}
+
+.purple2 {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #5863E3;
+    position: absolute;
+    left: 650px;
+    top: 199vh;
+}
+
+.purple3 {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #5863E3;
+    position: absolute;
+    left: 650px;
+    top: 203vh;
+}
+
+.purple4 {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #5863E3;
+    position: absolute;
+    left: 650px;
+    top: 207vh;
+}
+
+.priv {
+    color: #FFFFFF;
+    position: absolute;
+    left: 55vw;
+    top: 190vh;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.purple5 {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #5863E3;
+    position: absolute;
+    left: 55vw;
+    top: 195vh;
+}
+
+.purple6 {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #5863E3;
+    position: absolute;
+    left: 55vw;
+    top: 199vh;
+}
+
+.purple7 {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #5863E3;
+    position: absolute;
+    left: 55vw;
+    top: 203vh;
+}
+
+.purple8 {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #5863E3;
+    position: absolute;
+    left: 55vw;
+    top: 207vh;
+}
+
+.fa.fa-map-marker {
+    color: #5863E3;
+}
+
+.cont {
+    color: #FFFFFF;
+    position: absolute;
+    left: 70vw;
+    top: 190vh;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.white1 {
+    color: #FFFFFF;
+    position: absolute;
+    left: 70vw;
+    top: 195vh;
+    font-weight: 400;
+    font-size: 17px;
+    list-style: none;
+}
+
+.white2 {
+    color: #FFFFFF;
+    position: absolute;
+    left: 70vw;
+    top: 199vh;
+    font-weight: 400;
+    font-size: 17px;
+    list-style: none;
+}
+
+.white3 {
+    color: #FFFFFF;
+    position: absolute;
+    left: 70vw;
+    top: 203vh;
+    font-weight: 400;
+    font-size: 17px;
+    list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+    #big {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #small2 {
+        justify-content: space-around;
+        height: 340px;
+    }
+
+    button {
+        width: 55vw;
+    }
+
+    input {
+        width: 51vw;
+    }
+
+    #small2 {
+        width: 55vw;
+    }
+
+    textarea {
+        width: 70vw;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    #head {
+        margin: 20px 10vw;
+    }
+
+    #big {
+        margin: 0 10vw;
+    }
+
+    i {
+        font-size: 13px !important;
+    }
+
+    #location {
+        height: 14px;
+    }
+
+    .icon {
+        height: 35px;
+        width: 35px;
+        border-radius: 50px;
+    }
+
+    .nice {
+        height: 170px;
+        justify-content: space-evenly;
+    }
+
+    #info {
+        width: 100vw;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .photo {
+        height: 29vw;
+    }
+
+    .nice {
+        height: 140px;
+    }
+
+    #footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 360px;
+        width: 100%;
+    }
+
+    #hotels {
+        width: 75vw;
+    }
+
+    #contact {
+        width: 85vw;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .contactinfo>h4 {
+        font-size: 17px;
+    }
+
+    .useful {
+        position: absolute;
+        top: 1460px;
+    }
+
+    .purple1 {
+        left: 40vw;
+    }
+
+    .purple2 {
+        left: 40vw;
+    }
+
+    .purple3 {
+        left: 40vw;
+    }
+
+    .purple4 {
+        left: 40vw;
+    }
+}
